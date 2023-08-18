@@ -1,0 +1,10 @@
+ h1 {
+    color:red;
+    font-family: sans-serif, "Times new roman";
+    font-size: 36px;
+}
+
+img {
+    height:auto;
+    width: 600px
+}
