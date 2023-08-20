@@ -2,8 +2,9 @@
     padding: 16px 16px;
     background-color:#eed;
     color:red;
-    font-family: "Unify Sans regular", sans-serif, "Times new roman";
+    font-family: Georgia, sans-serif, "Times new roman";
     font-size: 46px;
+    font-weight: 700;
 }
 
 h2 {
