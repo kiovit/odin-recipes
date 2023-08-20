@@ -2,40 +2,52 @@
     padding: 16px 16px;
     background-color:#eed;
     color:red;
-    font-family: sans-serif, "Times new roman";
-    font-size: 36px;
+    font-family: "Unify Sans regular", sans-serif, "Times new roman";
+    font-size: 46px;
 }
 
 h2 {
-    font-family: sans-serif, "Times new roman";
-    font-size: 24px;
+    font-family: "Unify Sans regular", sans-serif, "Times new roman";
+    font-size: 30px;
 }
 
 p {
-    font-family: sans-serif, "Times new roman";
-    font-size: 14px;
+    font-family: "Unify Sans regular", sans-serif, "Times new roman";
+    font-size: 20px;
+    font-weight: 500;
     text-align:left
 
 }
 
-img {
-    height:auto;
-    width: 600px
+ul {
+    font-family: "Unify Sans regular", sans-serif, "Times new roman";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ol {
+    font-family: "Unify Sans regular", sans-serif, "Times new roman";
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .center {
+    height:auto;
+    width: 600px;
     display: block;
+    object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  }
+    
+}
 
-.index{
+.pages {
     padding: 10px 16px;
     list-style: none;
     background-color: #eed;
-    font-size: 14;
-    font-family: 'Courier New', Courier, monospace, sans-serif, "Times new roman";
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
     }
     
   
