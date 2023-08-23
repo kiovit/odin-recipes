@@ -1,7 +1,16 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+ 
  h1 {
     padding: 16px 16px;
     background-color:#eed;
-    color:red;
+    color:rgb(179,57,81);
     font-family: Georgia, sans-serif, "Times new roman";
     font-size: 40px;
     font-weight: 700;
@@ -46,8 +55,24 @@ ol {
     list-style: none;
     background-color: #eed;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 100;
     font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
-    }
+    display: flex;    
+        }
     
-  
+.pages a {
+    background-color: rgb(179,57,81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 1em;
+    display: inline-block;
+    margin: 3px;
+              }
+      
+.pages a:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+            }
+footer {
+    font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
+}
