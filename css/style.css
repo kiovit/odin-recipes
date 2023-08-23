@@ -69,17 +69,14 @@ ol {
     font-size: 18px;
     font-weight: 100;
     font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
-    display: flex; 
-    flex: 50%; 
+    display: flex;
         }
     
-.pages a {
+.pages a{
     background-color: rgb(179,57,81);
     color: #fff;
     text-decoration: none;
     padding: 16px 16px;
-    display:inline-flex;
-    flex: 50%;
     margin: 2px;
     border-style:solid;
     border-width: 2px;
