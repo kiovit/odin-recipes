@@ -79,7 +79,7 @@ ol {
     text-decoration: none;
     padding: 16px 16px;
     display:inline-flex;
-    flex: wrap;
+    flex: 2 2 25%;
     margin: 2px;
     border-style:solid;
     border-width: 2px;
