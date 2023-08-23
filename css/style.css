@@ -1,6 +1,10 @@
 html {
     min-height: 100vh;
   }
+  
+  @media (max-width:768px) {
+    .pages{  flex-direction: column}
+    }
 
   body {
     min-height: 100vh;    
