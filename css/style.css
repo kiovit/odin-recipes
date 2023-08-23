@@ -1,11 +1,4 @@
-@media screen and (max-width: 350px) {
-    .pages {
-        display: block;
-    }
-}   
 html {
-    
-    box-sizing: border-box;
     min-height: 100vh;
   }
 
@@ -97,8 +90,3 @@ ol {
 footer {
     font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
 }
-
-{
-  box-sizing: inherit;
-  }
- 
