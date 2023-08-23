@@ -57,7 +57,8 @@ ol {
     font-size: 20px;
     font-weight: 100;
     font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
-    display: flex;    
+    display: flex; 
+    flex: wrap;   
         }
     
 .pages a {
@@ -65,7 +66,7 @@ ol {
     color: #fff;
     text-decoration: none;
     padding: 1em 1em;
-    display: inline-block;
+    display: flex;
     margin: 3px;
               }
       
