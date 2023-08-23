@@ -1,13 +1,8 @@
 html {
     box-sizing: border-box;
   }
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
- 
- h1 {
+
+  h1 {
     padding: 16px 16px;
     background-color:#eed;
     color:rgb(179,57,81);
@@ -46,7 +41,7 @@ ol {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     
 }
 
@@ -54,7 +49,7 @@ ol {
     padding: 10px 16px;
     list-style: none;
     background-color: #eed;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
     display: flex; 
@@ -68,7 +63,7 @@ ol {
     padding: 1em 1em;
     display: flex;
     margin: 3px;
-              }
+           }
       
 .pages a:hover {
     background-color: rgb(66, 28, 40);
@@ -77,3 +72,8 @@ ol {
 footer {
     font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
 }
+
+{
+  box-sizing: inherit;
+  }
+ 
