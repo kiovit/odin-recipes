@@ -1,3 +1,8 @@
+@media (max-width: 1024px)  {
+    .pages  {
+        display: block;
+    }
+}   
 html {
     
     box-sizing: border-box;
