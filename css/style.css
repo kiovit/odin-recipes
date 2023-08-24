@@ -1,6 +1,10 @@
 html {
     min-height: 100vh;
   }
+
+ @media (max-width:768px) {
+    .pages{  flex-direction: column}
+    }
  
   body {
     min-height: 100vh;    
@@ -31,7 +35,6 @@ p {
     font-size: 20px;
     font-weight: 500;
     text-align:left
-
 }
 
 ul {
@@ -47,17 +50,15 @@ ol {
 }
 
 .center {
-
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    
+    width: 75%;    
 }
 
 .pages {
-    margin-top: 10px;
-    padding-bottom: 15px;
+    margin-top: 8px;
+    padding:6px;
     list-style: none;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -70,18 +71,19 @@ ol {
         
 .list-title {
     position:relative;
-    bottom: 10px;
+    bottom:1px;
 }
 
 .pages a{
     background-color: rgb(179,57,81);
     color: #fff;
     text-decoration: none;
-    padding: 16px 16px;
-    margin: 2px;
+    padding: 8px 8px;
+    margin: 1px;
     border-style:solid;
     border-width: 2px;
     border-color: darkblue;
+
            }
       
 .pages a:hover {
