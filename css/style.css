@@ -3,7 +3,9 @@ html {
   }
 
  @media (max-width:768px) {
-    .pages{  flex-direction: column}
+    .pages {  
+        display: block;
+    }
     }
  
   body {
@@ -84,8 +86,6 @@ ol {
     border-width: 2px;
     border-color: darkblue;
     display:inline-block;
-    width: auto;
-
            }
       
 .pages a:hover {
