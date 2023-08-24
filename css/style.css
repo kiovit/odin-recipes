@@ -1,12 +1,6 @@
 html {
     min-height: 100vh;
   }
-
- @media (max-width:768px) {
-    .pages a {  
-        display: block;
-    }
-    }
  
   body {
     min-height: 100vh;    
