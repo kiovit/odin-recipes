@@ -57,8 +57,7 @@ ol {
 
 .pages {
     margin-top: 10px;
-    padding: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     list-style: none;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -67,11 +66,9 @@ ol {
     font-size: 18px;
     font-weight: 100;
     font-family: "Unify Sans regular", sans-serif, "Times new roman";
-    display: block;
         }
         
 .list-title {
-    display:block;
     position:relative;
     bottom: 10px;
 }
@@ -93,5 +90,6 @@ ol {
             }
 
 footer {
+    margin-top: 2px;
     font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
 }
