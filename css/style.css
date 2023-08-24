@@ -3,7 +3,7 @@ html {
   }
 
  @media (max-width:768px) {
-    .pages {  
+    .pages a {  
         display: block;
     }
     }
