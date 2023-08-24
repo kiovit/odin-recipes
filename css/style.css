@@ -11,23 +11,23 @@ html {
   }
 
   h1 {
-    margin-bottom: 16px;
-    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-top: 8px;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-bottom-color: rgb(179,57,81);
-    padding: 12px;
+    border-color: rgb(179,57,81);
+    padding: 6px;
     background-color:#eed;
     color:rgb(179,57,81);
-    font-family: Georgia, sans-serif, "Times new roman";
+    font-family: Georgia, sans-serif;
     font-size: 40px;
     font-weight: 700;
 }
 
 h2 {
-    font-family: "Unify Sans regular", sans-serif, "Times new roman";
+    font-family: "Unify Sans regular", sans-serif;
     font-size: 30px;
-    margin-bottom: 2px;
+    color:rgb(179,57,81);
 }
 
 p {
@@ -55,12 +55,14 @@ ol {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 75%;
     
 }
 
 .pages {
-    padding: 10px;
+    margin-top: 8px;
+    padding: 5px;
+    padding-bottom: 20px;
     list-style: none;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -68,10 +70,16 @@ ol {
     background-color: #eed;
     font-size: 18px;
     font-weight: 100;
-    font-family: "Unify Sans regular", 'Courier New', Courier, monospace, sans-serif, "Times new roman";
-    display: flex;
+    font-family: "Unify Sans regular", sans-serif, "Times new roman";
+    display: block;
         }
-    
+        
+.list-title {
+    display:block;
+    position:relative;
+    bottom: 10px;
+}
+
 .pages a{
     background-color: rgb(179,57,81);
     color: #fff;
